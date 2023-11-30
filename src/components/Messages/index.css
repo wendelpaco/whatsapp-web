@@ -1,0 +1,54 @@
+.card-content-client, .card-content-agent {
+  margin-bottom: 15px;
+}
+
+.card-content-client .card-content-avatar, .card-content-agent .card-content-avatar {
+  margin: auto;
+  width: 35px;
+  height: 35px;
+}
+
+.card-content-client .card-content-text, .card-content-agent .card-content-text {
+  padding: 12px;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.card-content-client .card-content-date svg, .card-content-agent .card-content-date svg {
+  font-size: 16px;
+  color: rgb(1, 119, 169);
+  margin: -4px 2px;
+}
+
+.reaction-badge {
+  bottom: -20px;
+}
+
+.reaction-badge span {
+  background: #ffffff !important;
+  border: 1px solid #d5d5d5;
+}
+
+/* Chat agent */
+.card-content-agent .card-content-text {
+  background-color: #d5d5d5;
+  color: #717171;
+  text-align: right;
+}
+
+.card-content-agent .card-content-date {
+  font-size: 12px;
+  text-align: left;
+}
+
+/* Chat client */
+.card-content-client .card-content-text {
+  background-color: #2eb34c;
+  color: #fff;
+  text-align: right;
+}
+
+.card-content-client .card-content-date {
+  font-size: 12px;
+  text-align: right;
+}

@@ -1,0 +1,29 @@
+.user-list-box {
+  border-right: 0.5px solid #d5d5d5;
+  padding: 10px;
+}
+
+.container-chats {
+  padding: 25px;
+}
+
+.last-message {
+  display: block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.message-delivered {
+  font-size: 16px !important;
+  margin-bottom: -24px !important;
+  margin-right: 3px !important;
+}
+
+.unread-message-counter {
+  margin-left: 15px;
+} 
+
+.unread-message-counter span {
+  background-color: #2eb34c;
+}
